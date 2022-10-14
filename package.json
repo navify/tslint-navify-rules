@@ -1,0 +1,33 @@
+{
+  "name": "tslint-navify-rules",
+  "version": "0.0.13",
+  "description": "Common TypeScript lint rules/preferences for Navify.",
+  "main": "tslint.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navify/tslint-navify-rules.git"
+  },
+  "keywords": [
+    "tslint",
+    "rules",
+    "navify",
+    "angular",
+    "typescript",
+    "lint",
+    "linting",
+    "linter",
+    "tslint-plugin"
+  ],
+  "author": "Navify Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navify/tslint-navify-rules/issues"
+  },
+  "homepage": "https://github.com/navify/tslint-navify-rules#readme",
+  "dependencies": {
+    "tslint-eslint-rules": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  }
+}
