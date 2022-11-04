@@ -1,6 +1,6 @@
 {
   "name": "tslint-navify-rules",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Common TypeScript lint rules/preferences for Navify.",
   "main": "tslint.js",
   "repository": {
