@@ -1,12 +1,17 @@
 {
   "name": "tslint-navify-rules",
-  "version": "0.0.13",
+  "version": "0.0.20",
   "description": "Common TypeScript lint rules/preferences for Navify.",
   "main": "tslint.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/navify/tslint-navify-rules.git"
   },
+  "files": [
+    "dist",
+    "tslint.js",
+    "strict.js"
+  ],
   "keywords": [
     "tslint",
     "rules",
@@ -18,16 +23,28 @@
     "linter",
     "tslint-plugin"
   ],
-  "author": "Navify Team",
+  "author": "Navify",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/navify/tslint-navify-rules/issues"
   },
   "homepage": "https://github.com/navify/tslint-navify-rules#readme",
+  "scripts": {
+    "build": "tsc --project .",
+    "release": "np",
+    "prepublishOnly": "npm run build"
+  },
   "dependencies": {
-    "tslint-eslint-rules": "^4.1.1"
+    "@types/node": "^10.9.4",
+    "tslint-eslint-rules": "^5.3.1"
   },
   "devDependencies": {
-    "typescript": "^2.3.4"
+    "np": "^3.0.4",
+    "tslint": "^5.10.0",
+    "typescript": "^3.0.3"
+  },
+  "peerDependencies": {
+    "tslint": "^5.1.0",
+    "typescript": "^2.1.0 || ^3.0.0"
   }
 }
