@@ -1,3 +1,7 @@
+### :rotating_light: DEPRECATED :rotating_light:
+
+**TSLint isn't maintained anymore. Use Prettier with [`@navify/prettier-config`](https://github.com/navify/prettier-config/).**
+
 # TSLint rules for Navify
 
 Common TypeScript lint rules/preferences for Navify.
